@@ -3,4 +3,24 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
+/* HEADER */
+header img{
+    line-height: 3em;
+    vertical-align: middle;
+}
+
+header h1{
+    display: inline-block;
+    line-height: 3em;
+    vertical-align: middle;
+}
+
+.container-top{
+    padding-left: 1em;
+}
+
+
+/* MAIN */
