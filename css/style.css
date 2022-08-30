@@ -66,4 +66,9 @@ header h1{
     /* BOTTOM MAIN */
 .item-bottom{
     width: 100%;
+    padding: 0 6rem 2rem;
+}
+
+.item-bottom p{
+    margin-bottom: 2.4rem;
 }
