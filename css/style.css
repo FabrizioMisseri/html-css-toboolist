@@ -7,6 +7,7 @@
 
 html{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 100%;
 }
 
 body{
@@ -16,6 +17,8 @@ body{
 /* HEADER */
 header{
     background-color: white;
+    line-height: 3em;
+    padding-left: 1em;
 }
 
 header img{
@@ -29,13 +32,10 @@ header h1{
     vertical-align: middle;
 }
 
-.container-top{
-    padding-left: 1em;
-}
 
 
 /* MAIN */
-.container-main{
+main{
     width: 75%;
     margin: 3em auto;
     background-color: white;
@@ -43,15 +43,15 @@ header h1{
 
     /* TOP MAIN */
 .item-top{
-    padding: 1rem;
+    padding: 1em;
     border-bottom: 1px solid rgb(228, 241, 248);
     width: 100%;
-    padding: 1rem 5rem;
+    padding: 1em 5em;
 }
 
 .item-top button{
-    padding: 0.5rem;
-    border-radius: 0.5rem;
+    padding: 0.5em;
+    border-radius: 4px;
 }
 
 #sx{
@@ -69,11 +69,11 @@ header h1{
     /* BOTTOM MAIN */
 .item-bottom{
     width: 100%;
-    padding: 0 6rem 2rem;
+    padding: 0 6rem 2em;
 }
 
 .item-bottom p{
-    margin-bottom: 2.4rem;
+    margin-bottom: 2.4em;
 }
 
 .item-bottom ul{
@@ -81,18 +81,18 @@ header h1{
 }
 
 .item-bottom ul li{
-    margin: 0.4rem;
+    margin: 0.4em;
 }
 
 
 
 /* ETICHETTE */
 .label{
-    border-radius: 0.5rem;
+    border-radius: 5px;
     color: white;
     font-size: 0.75rem;
-    padding: 0.2rem 0.4rem;
-    margin-left: 0.2rem;
+    padding: 0.2em 0.4em;
+    margin-left: 0.2em;
 }
 
 .green{
@@ -126,14 +126,14 @@ header h1{
 }
 
 .round{
-    font-size: 0.5rem;
     display: inline-block;
+    font-size: 0.5rem;
     border-radius: 50%;
-    line-height: 1rem;
+    line-height: 1.2rem;
+    width: 1.2rem;
+    height: 1.2rem;
     text-align: center;
     font-weight: bold;
-    width: 1rem;
-    height: 1                rem;
 }
 
 .check{
